@@ -1,0 +1,1 @@
+Simple project highlighting the fundamentals of typescript.
