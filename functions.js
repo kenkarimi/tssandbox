@@ -19,6 +19,6 @@ function getName(firstname, lastname) {
     return firstname + ' ' + lastname;
 }
 //console.log(getName('John'));
-function myVoid() {
+function getVoid() {
     return;
 }

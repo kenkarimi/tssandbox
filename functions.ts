@@ -17,7 +17,7 @@ let mySum = function(num1: any, num2: any): number{
 
 //console.log(mySum(6, '5'));
 
-function getName(firstname: string, lastname?: string): string{
+function getName(firstname: string, lastname: string): string{
     if(lastname == undefined){
         return firstname;
     }
@@ -26,6 +26,6 @@ function getName(firstname: string, lastname?: string): string{
 
 //console.log(getName('John'));
 
-function myVoid(): void{
+function getVoid(): void{
     return;
 }
