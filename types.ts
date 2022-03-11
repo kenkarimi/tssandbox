@@ -14,7 +14,7 @@ let strArr: Array<string>;
 let numArr: Array<number>;
 let boolArr: Array<boolean>;
 
-let strNumTuple: [string, number]; //An array with a defined number of elements
+let strNumTuple: [string, number]; //A tuple is an array with a defined number of elements.
 
 myString = 'Hello world';
 myNum = 22;

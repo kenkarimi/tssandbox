@@ -2,10 +2,12 @@ interface UserInterface {
     name: string;
     email: string;
     age: number;
-    register();
-    payInvoice();
+    register(): void;
+    payInvoice(): void;
 }
 
+/*The global variables/properties in class user need to have corresponding types to the ones implemented in the UserInterface above.
+ *The methods/functions in user don't need to be typed since their types have already been declared in the interface above. When you hover over them, they show their typing.*/
 class User implements UserInterface {
     name: string;
     email: string;
@@ -16,7 +18,7 @@ class User implements UserInterface {
         this.email = email;
         this.age = age;
 
-        console.log('User Created: ' +this.name);
+        console.log('User Created: '+ this.name);
     }
 
     public register(){
@@ -24,7 +26,7 @@ class User implements UserInterface {
     }
 
     payInvoice(){
-        console.log(this.name + ' paid invoice');
+        console.log(this.name +' paid invoice');
     }
 }
 

@@ -13,6 +13,8 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+/*The global variables/properties in class user need to have corresponding types to the ones implemented in the UserInterface above.
+ *The methods/functions in user don't need to be typed since their types have already been declared in the interface above. When you hover over them, they show their typing.*/
 var User = /** @class */ (function () {
     function User(name, email, age) {
         this.name = name;

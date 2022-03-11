@@ -1,3 +1,5 @@
+//To Run: tsc types.ts
+//To Run and watch: tsc types.ts -w
 var myString;
 var myNum;
 var myBool;
