@@ -3,12 +3,13 @@ function getSum(num1: number, num2: number): number{
 }
 
 //console.log(getSum(4, 4));
+
 let mySum = (num1: any, num2: any): number => {
     
-    if(typeof num1 == 'string'){
+    if(typeof num1 === 'string'){
         num1 = parseInt(num1);
     }
-    if(typeof num2 == 'string'){
+    if(typeof num2 === 'string'){
         num2 = parseInt(num2);
     }
     

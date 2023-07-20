@@ -27,7 +27,7 @@ boolArr = [true, false, true];
 
 strNumTuple = ['hello', 4];
 
-let myVoid: void = null;
+let myVoid: void = undefined;
 let myNull: null = null;
 let myUndefined: undefined = undefined;
 

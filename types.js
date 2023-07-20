@@ -10,7 +10,7 @@ let boolArr: boolean[];*/
 var strArr;
 var numArr;
 var boolArr;
-var strNumTuple; //An array with a defined number of elements
+var strNumTuple; //A tuple is an array with a defined number of elements.
 myString = 'Hello world';
 myNum = 22;
 myBool = false;
@@ -19,7 +19,7 @@ strArr = ['hello', 'world'];
 numArr = [1, 2, 3];
 boolArr = [true, false, true];
 strNumTuple = ['hello', 4];
-var myVoid = null;
+var myVoid = undefined;
 var myNull = null;
 var myUndefined = undefined;
 console.log(myString);

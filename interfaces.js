@@ -10,3 +10,8 @@ function showTodo(todo) {
 }
 var myTodo = { title: 'Trash', text: 'Take out trash' };
 showTodo(myTodo);
+var person = {
+    name: "John Doe",
+    id: 0
+};
+console.log(person);

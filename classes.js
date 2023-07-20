@@ -42,7 +42,8 @@ var Member = /** @class */ (function (_super) {
     };
     return Member;
 }(User));
-//let john = new User('John Doe', 'doe@gmail.com', 34);
-//john.register();
+var john = new User('John Doe', 'doe@gmail.com', 34);
+console.log(john.name);
+john.register();
 var mike = new Member(1, 'Mike Smith', 'msmith@gmail.com', 31);
 mike.payInvoice();
