@@ -7,8 +7,8 @@ let myTodo = { title: 'Trash', text: 'Take out trash'}
 showTodo(myTodo);*/
 
 interface Todo { //The object within the parameters of showTodo will have to conform to this interface.
-    title: string,
-    text: string
+    title: string;
+    text: string;
 }
 
 function showTodo(todo: Todo){
