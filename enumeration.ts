@@ -59,3 +59,21 @@ enum BooleanLikeHeterogeneousEnum {
 
 let my_result: BooleanLikeHeterogeneousEnum = BooleanLikeHeterogeneousEnum.No
 console.log(BooleanLikeHeterogeneousEnum.No);
+
+//Extracting the object types of enums
+enum Color {
+    Red = 'RED',
+    Green = 'GREEN',
+    Blue = 'BLUE',
+  }
+  
+  type ColorKey = keyof typeof Color; // 'Red' | 'Green' | 'Blue'
+  type ColorValue = typeof Color[ColorKey]; // 'RED' | 'GREEN' | 'BLUE'
+  
+  const colorKey: ColorKey = 'Red';
+  const colorValue: ColorValue = Color[colorKey];
+  
+  console.log(colorKey); // Output: 'Red'
+  console.log(colorValue); // Output: 'RED'
+
+  //More on typescript enums and best practices https://blog.logrocket.com/typescript-enums-vs-types/

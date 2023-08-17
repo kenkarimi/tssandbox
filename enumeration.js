@@ -52,3 +52,15 @@ var BooleanLikeHeterogeneousEnum;
 })(BooleanLikeHeterogeneousEnum || (BooleanLikeHeterogeneousEnum = {}));
 var my_result = BooleanLikeHeterogeneousEnum.No;
 console.log(BooleanLikeHeterogeneousEnum.No);
+//Extracting the object types of enums
+var Color;
+(function (Color) {
+    Color["Red"] = "RED";
+    Color["Green"] = "GREEN";
+    Color["Blue"] = "BLUE";
+})(Color || (Color = {}));
+var colorKey = 'Red';
+var colorValue = Color[colorKey];
+console.log(colorKey); // Output: 'Red'
+console.log(colorValue); // Output: 'RED'
+//More on typescript enums and best practices https://blog.logrocket.com/typescript-enums-vs-types/
