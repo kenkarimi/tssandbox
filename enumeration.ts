@@ -87,7 +87,7 @@ enum Color {
   }
 
   let account_type: number = AccountType.Customers;
-  let account_required: number = AccountType.Customers;
+  let account_required: number = AccountRequired.Customers;
 
   if(account_type === account_required){ //To compare values in two different enums, you have to put them both in variables that adhere to their types whether string enums or numeric enums.
     console.log('They\'re both customers');
