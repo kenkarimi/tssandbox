@@ -63,4 +63,22 @@ var colorKey = 'Red';
 var colorValue = Color[colorKey];
 console.log(colorKey); // Output: 'Red'
 console.log(colorValue); // Output: 'RED'
+var AccountType;
+(function (AccountType) {
+    AccountType[AccountType["Customers"] = 0] = "Customers";
+    AccountType[AccountType["Investors"] = 1] = "Investors";
+})(AccountType || (AccountType = {}));
+var AccountRequired;
+(function (AccountRequired) {
+    AccountRequired[AccountRequired["Customers"] = 0] = "Customers";
+    AccountRequired[AccountRequired["Investors"] = 1] = "Investors";
+})(AccountRequired || (AccountRequired = {}));
+var account_type = AccountType.Customers;
+var account_required = AccountType.Customers;
+if (account_type === account_required) { //To compare values in two different enums, you have to put them both in variables that adhere to their types whether string enums or numeric enums.
+    console.log('They\'re both customers');
+}
+else {
+    console.log('They\'re NOT the same.');
+}
 //More on typescript enums and best practices https://blog.logrocket.com/typescript-enums-vs-types/
