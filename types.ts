@@ -31,6 +31,12 @@ let myVoid: void = undefined;
 let myNull: null = null;
 let myUndefined: undefined = undefined;
 
+//Type-casting:
+let word: string = null as any; //null value cast as any so its acceptable to a variable of type string.
+//let word2: string = null as string; //can't cast null as string.
+//let word3: string = null as number; //can't cast null as number.
+//let word4: string = null as boolean; //can't cast null as boolean.
+
 console.log(myString);
 console.log(myNum);
 console.log(myBool);
@@ -41,3 +47,4 @@ console.log(boolArr);
 console.log(myVoid);
 console.log(myNull);
 console.log(myUndefined);
+console.log(word);
