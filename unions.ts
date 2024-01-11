@@ -5,7 +5,6 @@
 type MyBool = true | false; //If you hover over MyBool, you'll see that it's classed as a boolean. This is a property of the structural type system.
 
 //A popular use-case for union types is to describe the set of string or number literals that a value is allowed to be:
-//ninge / kwani
 type WindowStates = "open" | "closed" | "minimized";
 type LockStates = "locked" | "unlocked";
 type PositiveOddNumbersUnderTen = 1 | 3 | 5 | 7 | 9;

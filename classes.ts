@@ -30,7 +30,7 @@ class User implements UserInterface {
     }
 }
 
-class Member extends User { //inherits form User
+class Member extends User { //inherits from User
     id: number;
 
     constructor(id: number, name: string, email: string, age: number){ //id, along with the fields of the class it's inheriting from.
@@ -43,9 +43,9 @@ class Member extends User { //inherits form User
     }
 }
 
-let john = new User('John Doe', 'doe@gmail.com', 34);
+let john = new User('John Doe', 'jdoe@gmail.com', 34);
 console.log(john.name);
 john.register();
 
-let mike: User = new Member(1, 'Mike Smith', 'msmith@gmail.com', 31);
-mike.payInvoice();
+let jane: User = new Member(1, 'Jane Doe', 'doejane@gmail.com', 31);
+jane.payInvoice();

@@ -1,5 +1,6 @@
 //To Run: tsc types.ts
 //To Run and watch: tsc types.ts -w
+//Order to learn: types.ts, functions.ts, unions.ts, interfaces.ts, generics.ts, classes.ts, enumeration.ts
 
 let myString: string;
 let myNum: number;
