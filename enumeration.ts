@@ -3,7 +3,7 @@
 
 
 //NB: There are three types of enums: Numeric enums, String enums, Heterogenous enums.
-//NB: Being able to save values e.g. numbers & strings in enums means that unlike in Java or Swift, the enums themselves can be printed or saved in databases since they have inner values.
+//NB: Being able to save values e.g. numbers & strings in enums means that unlike in Java, the enums themselves can be printed or saved in databases since they have inner values.
 //NB: This means that there's no need to use the ternary operator to convert them back and forth when its time to compare, print or save them in a database.
 
 //Numeric Enums: 
